@@ -1,0 +1,16 @@
+<frameset rows="31%,*,7%,5%" bordercolor=white  frameborder="0.1" border="1" framespacing="">
+      <frameset rows="*" cols="100%">  
+       <frame src="name.php">
+<frame src="UntitledFrame-4"></frameset><noframes></noframes>
+<frameset cols="70%,30%">  
+      <frame src="img.php">
+      <frame src="ban.php">
+</frameset>
+
+<frameset cols="10%,*">  
+      <frame src="notic.php">
+      <frame src="notice.php">
+</frameset>
+<frameset cols="100%">  
+      <frame src="copy.php">
+</frameset>

@@ -1,0 +1,56 @@
+<?php
+session_start();
+if(!isset($_SESSION['Name']))
+{
+	header("location:ban.php");
+}
+?>
+
+
+<htm>
+
+
+<body bgcolor="#D17519">
+
+ <center>
+  <img src="3d_wooden_text_effect.png" style="width:330px;height:65px"></center>
+<label for="emailsignup" class="youmail" data-icon="e" ><font face="" size="5" color="white"> Your email</font></label>
+		&nbsp;		&nbsp;	&nbsp;<input id="emailsignup" name="emailsignup" required type="email" placeholder="************@cutm.ac.in"/> 
+<table>
+
+<tr>
+ <td valign="top">
+  <label for="comments"><font face="" size="5" color="white">Comment </br></font></label></br>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1020" cols="35" rows="6"></textarea>
+ </td>
+  <tr>
+
+</tr>
+
+<tr>
+
+<td><h><font face="" size="4" color="white">choose a image</font></h></td>
+
+</form>
+<td><center>
+<form action="demo_form.asp">
+  <input type="file" name="pic" accept="image/*"></td></tr></table>
+ <p class="signin button"> 
+					<input type="submit" value="Send"/> 
+				</p>
+  </center>
+<a href="logout.php">logout</a>
+</form>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
